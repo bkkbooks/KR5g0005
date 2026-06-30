@@ -1,0 +1,40 @@
+canonical_identifier: bkk:krp/KR5g0005/ZTDZ/v1
+canonical_location: https://kanripo.org/bkk/KR5g0005/ZTDZ/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 太上金華天尊救劫護命妙經
+  date: '2015-08-29 02:25:24.310393'
+  source:
+    repository: kanripo
+    path: KR5g0005
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+  edition:
+    short: ZTDZ
+    label: 【正統道藏・三家本】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5g0005_000-ZTDZ.yaml, hash: 'sha256:7eed7ace1bc93934e3c74c7dbb9351df594da721dd667d879d4e1330517ee6a8'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5g0005_000-ZTDZ.markers.yaml, hash: 'sha256:de0a114f1ac0c903529aa739896c35cdb3ec822f49bd0113f0327fb43055f6ed'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5g0005_SJB_000-280374c
+    span:
+    - body
+    - 0
+    - 250
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:cf10a0abcceb17934a4298ffdcb1c7ced8e1768b31d33a75fef05ed774b572cf
